@@ -39,5 +39,4 @@ resource "azurerm_resource_group" "rg-aks" {
   location = var.location
 }
 #Just adding a line here
-#Test comment
-#Test Comment
+#Test Comment1
