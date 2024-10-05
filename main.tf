@@ -22,7 +22,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_storage_account" "yogesh_test_storage_account" {
-  name                     = "yogesh-test-storage-account"
+  name                     = "yogeshteststorageaccount"
   resource_group_name      = "rg-terraform-github-actions-state"
   location                 = "South India"
   account_tier             = "Standard"
@@ -39,3 +39,4 @@ resource "azurerm_resource_group" "rg-aks" {
   location = var.location
 }
 #Just adding a line here
+#Test comment
